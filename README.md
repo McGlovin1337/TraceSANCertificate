@@ -3,7 +3,7 @@ PowerShell Cmdlet to Trace Hostnames in SAN Certificates
 
 ## About
 
-This Module contains a Cmdlet that can be used to retrieve the valid hostnames specified as Subject Alternate Names (SANs) in a given certificate, and retrieves the certificate from each hostname.
+This Module contains a Cmdlet that can be used to retrieve the valid hostnames specified as Subject Alternative Names (SANs) in a given certificate, and retrieves the certificate from each hostname.
 Useful to see if the hostnames specified in a certificate are using the same certificate as the source certificate/host.
 
 ## Requirements
