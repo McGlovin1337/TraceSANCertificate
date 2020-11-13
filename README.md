@@ -15,4 +15,4 @@ Tested against PowerShell 7.1 on Windows and Linux.
 Trace-SANCertificate -Host www.example.com -Port 443 -TryPorts 443, 993 -Timeout 1000
 ```
 
-This example will retrieve the certificate at the host "www.example.com" on TCP Port 443. It will then parse any SANs in the certificate and attempt to connect to each SAN hostname on the ports specified by "-TryPorts" parameter
+This example will retrieve the certificate at the host "www.example.com" on TCP Port 443. It will then parse any SANs that are a valid hostname in the certificate and attempt to retrieve a certificate from each on the ports specified by "-TryPorts" parameter
