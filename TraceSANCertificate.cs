@@ -104,13 +104,13 @@ namespace TraceSANCertificate
                 client.Close();
                 sslStream.Dispose();
                 client.Close();
+
+                return cert;
             }
             catch
             {
-                // Do nothing
+                return cert;
             }
-
-            return cert;
         }
 
         private static bool ValidateCertificate(
