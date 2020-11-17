@@ -15,11 +15,11 @@ namespace TraceSANCertificate
 
     public class TraceSANCertificate: PSCmdlet
     {
-        [Parameter(Position = 1, ValueFromPipeline = true, ValueFromPipelineByPropertyName = true, HelpMessage = "Hostname or IP Address to connect to")]
+        [Parameter(Position = 1, Mandatory = true, ValueFromPipeline = true, ValueFromPipelineByPropertyName = true, HelpMessage = "Hostname or IP Address to connect to")]
         [ValidateNotNullOrEmpty]
         public new string Host { get; set; }
 
-        [Parameter(Position = 2, ValueFromPipelineByPropertyName = true, HelpMessage = "Specify the TCP Port(s) to try")]
+        [Parameter(Position = 2, ValueFromPipelineByPropertyName = true, HelpMessage = "Specify the TCP Port for the source host")]
         [ValidateNotNullOrEmpty]
         public int Port { get; set; } = 443;
 
