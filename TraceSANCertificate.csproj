@@ -12,6 +12,9 @@
     <None Update="TraceSANCertificate.dll-Help.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="TraceSANCertificate.psd1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

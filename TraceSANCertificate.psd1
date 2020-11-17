@@ -9,10 +9,10 @@
 @{
 
 # Script module or binary module file associated with this manifest.
-RootModule = 'TraceSANCertificate'
+RootModule = 'TraceSANCertificate.dll'
 
 # Version number of this module.
-ModuleVersion = '0.1.0'
+ModuleVersion = '1.0.0'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -42,7 +42,7 @@ PowerShellVersion = '7.0'
 # PowerShellHostVersion = ''
 
 # Minimum version of Microsoft .NET Framework required by this module. This prerequisite is valid for the PowerShell Desktop edition only.
-DotNetFrameworkVersion = '3.1 Core'
+# DotNetFrameworkVersion = '3.1 Core'
 
 # Minimum version of the common language runtime (CLR) required by this module. This prerequisite is valid for the PowerShell Desktop edition only.
 # ClrVersion = ''
@@ -108,7 +108,7 @@ PrivateData = @{
         # IconUri = ''
 
         # ReleaseNotes of this module
-        # ReleaseNotes = ''
+        ReleaseNotes = 'Initial Release'
 
         # Prerelease string of this module
         # Prerelease = ''
@@ -130,4 +130,3 @@ PrivateData = @{
 # DefaultCommandPrefix = ''
 
 }
-
