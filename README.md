@@ -10,6 +10,13 @@ Useful to see if the hostnames specified in a certificate are using the same cer
 This Module is built upon .NET Core 3.1 and PowerShell 7.\
 Tested against PowerShell 7.1 on Windows and Linux.
 
+## Install
+Install from the PowerShell Gallery
+
+```powershell
+Install-Module -Name TraceSANCertificate
+```
+
 ## Usage
 ```powershell
 Trace-SANCertificate -Host www.example.com -Port 443 -TryPorts 443, 993 -Timeout 1000
